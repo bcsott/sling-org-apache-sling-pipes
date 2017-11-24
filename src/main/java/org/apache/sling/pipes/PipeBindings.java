@@ -49,8 +49,8 @@ public class PipeBindings {
     public static final String NN_ADDITIONALBINDINGS = "additionalBindings";
 
     public static final String PN_ADDITIONALSCRIPTS = "additionalScripts";
-
-    ScriptEngine engine = new ScriptEngineManager().getEngineByName("nashorn");
+//comment
+    ScriptEngine engine = new ScriptEngineManager(null).getEngineByName("nashorn");
 
     ScriptContext scriptContext = new SimpleScriptContext();
 
